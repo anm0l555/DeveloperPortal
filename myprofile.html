@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>myProfile</title>
+    
+     <!--linking aos css file--> 
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+     <!--font awesome kit code-->
+     <script src="https://kit.fontawesome.com/7886940eea.js" crossorigin="anonymous"></script>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body id="mypro_body">
+    <!--navbar-->
+    <nav class="black darken-2" >
+        <div class="navbar-fixed">
+          <div class="nav-wrapper">
+            <a href="#!" class="brand-logo center" id="heading"><i class="material-icons">polymer</i>  DevConnector</a>
+            
+            <a href="#" data-activates="slide-out" class="button-collapse show-on-large left"><i class="material-icons">menu</i></a>
+          </div>
+        </div>
+        <!--sidenav-->
+        <ul id="slide-out" class="side-nav ">  
+            <li>
+              <div class=user-view>
+                    <div class="background">
+                        <img src="img/light-1282314_1920.jpg" class="responsive-img center">
+                    </div>
+                    <a href="#!user"><img class="circle " src="img/girl-919048_1920.jpg"></a>
+                    <a href="#!name"><span class="black-text name">John Doe</span></a>
+                    <a href="#!email"><span class="black-text email">jdandturk@gmail.com</span></a>
+              </div>
+              
+          </li>
+          
+            <li><a href="dashboard.html " class="waves-effect" ><i class="material-icons">apps</i>Dashboard</a></li>
+            <li><div class="divider black-text"></div></li>
+            <li><a href="developers.html " class="waves-effect" ><i class="material-icons">people</i>Developers</a></li>
+            <li><div class="divider "></div></li>
+            <li><a class="waves-effect" href="post.html"><i class="material-icons">create</i>Post</a></li>
+            <li><div class="divider "></div></li>
+            <li><a class="waves-effect" href="contactus.html"><i class="material-icons">call</i>ContactUs</a></li>
+            <li><div class="divider "></div></li>
+            
+            <li><a class="header">Account Controls</a></li>            
+            <li><a class="waves-effect" href="profile.html"><i class="material-icons">edit</i>Edit Profile</a></li>
+            <li><div class="divider "></div></li>
+            
+            <li><a class="waves-effect" href="index.html"><i class="material-icons">arrow_back</i>Logout</a></li>
+            <li><div class="divider "></div></li>
+            
+          </ul>
+        
+      </nav>
+      <!--page..-->
+      <div class="mypro_bkg">
+        
+      </div>
+      <!--<div class="row"><div class="col s7 offset-s5"><h3 class="white-text mypro_bkg_hd">Jessie Agarwal</h3></div></div>-->
+      
+          
+          <div class="row mypro_row">
+            <div class="col l4 m12 s12  ">
+              <div class="card mypro_card1 z-depth-3">
+                <div class="card-image">
+                  <img src="img/beautiful-1274056_1920.jpg" class="mypro_follow_img">
+                  <div class="row">
+                    <a href="#" class="btn white black-text mypro_follow">Follow Jessie</span></a>
+                    <a href="#" class=" btn right mypro_follow1 transparent white-text"><i class="fas fa-ellipsis-h"></i></a>
+                  </div>
+                </div>
+                <div class="card-content mypro_card1_content">
+                  <h5 class="grey-text">About</h5>
+                  <p>I am a very simple card. I am good at containing small bits of information.
+                  I am convenient because I require little markup to use effectively.</p><br>
+                  <p class="red-text">Read more....</p><br><br>
+                  <div class="row">
+                    <div class="cols12"><span><p class="left grey-text">FOLLOWERS</p></span> <p class="right">128</p> </div>
+                    
+                  </div><br>
+                  <div class="row">
+                    <div class="cols12"><span><p class="left grey-text">FOLLOWING</p></span> <p class="right">153</p> </div>
+                  </div>
+                </div>  
+              </div>
+            </div>
+            <div class="col  s12 m12 l7 " id="mypro_l7">
+              <h3 class="white-text mypro_l7_hd" >Jessie Agarwal <div class="right"><a href="#" class="btn transparent " id="mypro_l7_hdbtn"><i class="far fa-share-square"></i>&nbsp; Share Profile</a></div></h3> 
+              <h6 class="white-text">San Francisco,CA,United States</h6>
+              <br><br><br>
+              
+                  <ul class="tabs mypro_tabs">
+                    <li class="tab mypro_tab col s3"><a href="#test1"><i class="fas fa-comment-alt medium"></i> <div>Posts</div></a></li>
+                    <li class="tab mypro_tab col s3"><a  href="#test2"><i class="fas fa-blog medium"></i><div>Blogs</div></a></li>
+                    <li class="tab mypro_tab col s3"><a href="#test3"><i class="fas fa-file medium"></i><div>Resume</div></a></li>
+                    <li class="tab mypro_tab col s3"><a href="#test4"><i class="fab fa-github medium"></i><div>Projects</div></a></li>
+                  </ul>
+                
+                <div id="test1" class="col s12">
+                  <div class="card mypro_post_card1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quasi nemo voluptates labore inventore cum animi vel! Praesentium, quod? Excepturi quisquam sint omnis laborum asperiores culpa distinctio. Reprehenderit, vitae nemo?Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat delectus est, aspernatur sint sed consectetur doloribus aliquid, blanditiis repellat vero fugiat nisi neque, suscipit impedit aperiam cupiditate voluptate earum nostrum. 
+                    <br><br><img src="img//businessman-562572_1920.jpg" class="responsive-img mypro_post_img" alt=""></div>
+                </div>
+                <div id="test2" class="col s12">Test 2</div>
+                <div id="test3" class="col s12">Test 3</div>                
+                <div id="test4" class="col s12">Test 4</div>
+              </div>
+          </div>
+        
+      
+    
+      
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <!--linking js file-->
+    <script src="js/script.js"></script>
+    <!-- linking aos js file-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('.button-collapse').sideNav();
+        //init tab
+        $('ul.tabs').tabs();
+        
+      });
+    </script>
+    
+  </body>
+</html>
+

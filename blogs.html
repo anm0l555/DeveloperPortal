@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Blogs</title>
+    
+     <!--linking aos css file--> 
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+     <!--font awesome kit code-->
+     <script src="https://kit.fontawesome.com/7886940eea.js" crossorigin="anonymous"></script>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body id="body2">
+    <!--navbar-->
+      <nav class="black darken-2" >
+        <div class="navbar-fixed">
+          <div class="nav-wrapper">
+            <a href="#!" class="brand-logo center" id="heading"><i class="material-icons">polymer</i>  DevConnector</a>
+            <ul class="right hide-on-small-only">
+                
+            </ul>
+            <a href="#" data-activates="slide-out" class="button-collapse show-on-large left"><i class="material-icons">menu</i></a>
+          </div>
+        </div>
+        <!--sidenav-->
+        <ul id="slide-out" class="side-nav ">  
+            <li>
+              <div class=user-view>
+                    <div class="background">
+                        <img src="img/light-1282314_1920.jpg" class="responsive-img center">
+                    </div>
+                    <a href="#!user"><img class="circle " src="img/girl-919048_1920.jpg"></a>
+                    <a href="#!name"><span class="black-text name">John Doe</span></a>
+                    <a href="#!email"><span class="black-text email">jdandturk@gmail.com</span></a>
+              </div>
+              
+            </li>
+          
+            
+            <li><a href="developers.html " class="waves-effect" ><i class="material-icons">people</i>Developers</a></li>
+            <li><div class="divider "></div></li>
+            <li><a class="waves-effect" href="post.html"><i class="material-icons">create</i>Post</a></li>
+            <li><div class="divider "></div></li>
+            <li><a class="waves-effect" href="myprofile.html"><i class="material-icons">create</i>My Profile</a></li>
+            <li><div class="divider "></div></li>
+            <li><a class="waves-effect" href="contactus.html"><i class="material-icons">call</i>ContactUs</a></li>
+            <li><div class="divider "></div></li>
+
+            <li><a class="header">Account Controls</a></li>            
+            <li><a class="waves-effect" href="profile.html"><i class="material-icons">edit</i>Edit Profile</a></li>
+            <li><div class="divider "></div></li>
+            <li><a class="waves-effect" href="index.html"><i class="material-icons">arrow_back</i>Logout</a></li>
+            <li><div class="divider "></div></li>
+            
+          </ul>
+        
+      </nav>
+
+      <!--page-->
+      <br><br>
+      <div class="row" >
+        <div class="col s4 offset-s2">
+          <div class="row">
+            <div class="input-field col s12">
+              <i class="material-icons prefix blgs_srch_icon">search</i>
+              <input type="text" id="autocomplete-input" class="autocomplete">
+              <label for="autocomplete-input">Search article here</label>
+            </div>
+            
+          </div>
+        </div>
+        <div class="col s4 ">
+          <a href="#" class="btn red lighten-3  right blgs_btn1"> <i class="fas fa-plus"></i>&nbsp;Create article</a>
+        </div> 
+      </div>
+
+
+
+      <!--TAbs-->
+
+
+      <div class="row">
+        <div class="col s9 offset-s1">
+          <ul class="tabs">
+            <li class="tab col s3"><a class="active" href="#test5">Test 1</a></li>
+            <li class="tab col s3"><a  href="#test6">Test 2</a></li>
+            
+            <li class="tab col s3"><a href="#test7">Test 3</a></li>
+          </ul>
+        </div>
+        <div id="test5" class="col s12">
+          <div class="row  ">
+
+            <div class="col s12 m6 l3 offset-l1">
+              <div class="card">
+                <div class="card-image blgs_cards">
+                  <img src="img/italy-1587287_1920.jpg" class="blgs_img">
+                  <span class="card-title">Daily Life of freelancer <p class="blgs_date">13 July, 2019</p></span>
+                  <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">expand_less</i><span class="blgs_num">137</span></a>
+                </div>
+                <div class="card-action blgs_content">
+                  <div class="row">
+                    <img src="img/person1.jpg" class="avatar circle blgs_avtimg left" alt="">
+                  <h6 class="blgs_name blue-text">Samantha Williams</h6>
+                  <p class="grey-text">on Technology</p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col s12 m6 l3">
+              <div class="card">
+                <div class="card-content blgs_cards">
+                  
+                  <span class="card-title">Daily Life of freelancer</span>
+                  <p class="grey-text">13 July , 2017</p><br>
+                  <p class="blgs_ctntpara"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis eligendi consectetur nesciunt illum, nam dicta nostrum blanditiis eveniet quidem vel dolorem, explicabo enim dig</p>
+                  <a class="btn-floating halfway-fab waves-effect waves-light red" id="blgs_fab"><i class="material-icons">expand_less</i><span class="blgs_num">137</span></a>
+                </div>
+                <div class="card-action blgs_content">
+                  <div class="row">
+                    <img src="img/person1.jpg" class="avatar circle blgs_avtimg left" alt="">
+                  <h6 class="blgs_name blue-text">Samantha Williams</h6>
+                  <p class="grey-text">on Technology</p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+    
+    
+            <div class="col s12 m6 l3">
+              <div class="card">
+                <div class="card-image blgs_cards">
+                  <img src="img/italy-1587287_1920.jpg" class="blgs_img">
+                  <span class="card-title">Daily Life of freelancer <p class="blgs_date">13 July, 2019</p></span>
+                  <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">expand_less</i><span class="blgs_num">137</span></a>
+                </div>
+                <div class="card-action blgs_content">
+                  <div class="row">
+                    <img src="img/person1.jpg" class="avatar circle blgs_avtimg left" alt="">
+                  <h6 class="blgs_name blue-text">Samantha Williams</h6>
+                  <p class="grey-text">on Technology</p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="test6" class="col s12">
+          
+          <div class="row  ">
+
+            <div class="col s12 m6 l3 offset-l1">
+              <div class="card">
+                <div class="card-image blgs_cards">
+                  <img src="img/italy-1587287_1920.jpg" class="blgs_img">
+                  <span class="card-title">Daily Life of freelancer <p class="blgs_date">13 July, 2019</p></span>
+                  <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">expand_less</i><span class="blgs_num">137</span></a>
+                </div>
+                <div class="card-action blgs_content">
+                  <div class="row">
+                    <img src="img/person1.jpg" class="avatar circle blgs_avtimg left" alt="">
+                  <h6 class="blgs_name blue-text">Samantha Williams</h6>
+                  <p class="grey-text">on Technology</p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col s12 m6 l3">
+              <div class="card">
+                <div class="card-content blgs_cards">
+                  
+                  <span class="card-title">Daily Life of freelancer</span>
+                  <p class="grey-text">13 July , 2017</p><br>
+                  <p class="blgs_ctntpara"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis eligendi consectetur nesciunt illum, nam dicta nostrum blanditiis eveniet quidem vel dolorem, explicabo enim dig</p>
+                  <a class="btn-floating halfway-fab waves-effect waves-light red" id="blgs_fab"><i class="material-icons">expand_less</i><span class="blgs_num">137</span></a>
+                </div>
+                <div class="card-action blgs_content">
+                  <div class="row">
+                    <img src="img/person1.jpg" class="avatar circle blgs_avtimg left" alt="">
+                  <h6 class="blgs_name blue-text">Samantha Williams</h6>
+                  <p class="grey-text">on Technology</p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+    
+    
+            <div class="col s12 m6 l3">
+              <div class="card">
+                <div class="card-image blgs_cards">
+                  <img src="img/italy-1587287_1920.jpg" class="blgs_img">
+                  <span class="card-title">Daily Life of freelancer <p class="blgs_date">13 July, 2019</p></span>
+                  <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">expand_less</i><span class="blgs_num">137</span></a>
+                </div>
+                <div class="card-action blgs_content">
+                  <div class="row">
+                    <img src="img/person1.jpg" class="avatar circle blgs_avtimg left" alt="">
+                  <h6 class="blgs_name blue-text">Samantha Williams</h6>
+                  <p class="grey-text">on Technology</p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="test7" class="col s12">
+          
+          <div class="row  ">
+
+            <div class="col s12 m6 l3 offset-l1">
+              <div class="card">
+                <div class="card-image blgs_cards">
+                  <img src="img/italy-1587287_1920.jpg" class="blgs_img">
+                  <span class="card-title">Daily Life of freelancer <p class="blgs_date">13 July, 2019</p></span>
+                  <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">expand_less</i><span class="blgs_num">137</span></a>
+                </div>
+                <div class="card-action blgs_content">
+                  <div class="row">
+                    <img src="img/person1.jpg" class="avatar circle blgs_avtimg left" alt="">
+                  <h6 class="blgs_name blue-text">Samantha Williams</h6>
+                  <p class="grey-text">on Technology</p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            <div class="col s12 m6 l3">
+              <div class="card">
+                <div class="card-content blgs_cards">
+                  
+                  <span class="card-title">Daily Life of freelancer</span>
+                  <p class="grey-text">13 July , 2017</p><br>
+                  <p class="blgs_ctntpara"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis eligendi consectetur nesciunt illum, nam dicta nostrum blanditiis eveniet quidem vel dolorem, explicabo enim dig</p>
+                  <a class="btn-floating halfway-fab waves-effect waves-light red" id="blgs_fab"><i class="material-icons">expand_less</i><span class="blgs_num">137</span></a>
+                </div>
+                <div class="card-action blgs_content">
+                  <div class="row">
+                    <img src="img/person1.jpg" class="avatar circle blgs_avtimg left" alt="">
+                  <h6 class="blgs_name blue-text">Samantha Williams</h6>
+                  <p class="grey-text">on Technology</p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+    
+    
+            <div class="col s12 m6 l3">
+              <div class="card">
+                <div class="card-image blgs_cards">
+                  <img src="img/italy-1587287_1920.jpg" class="blgs_img">
+                  <span class="card-title">Daily Life of freelancer <p class="blgs_date">13 July, 2019</p></span>
+                  <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">expand_less</i><span class="blgs_num">137</span></a>
+                </div>
+                <div class="card-action blgs_content">
+                  <div class="row">
+                    <img src="img/person1.jpg" class="avatar circle blgs_avtimg left" alt="">
+                  <h6 class="blgs_name blue-text">Samantha Williams</h6>
+                  <p class="grey-text">on Technology</p>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <!--Tabs closed-->
+      
+      
+
+      
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <!--linking js file-->
+    <script src="js/script.js"></script>
+    <!-- linking aos js file-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    
+    <script>
+      $(document).ready(function () {
+          //init sidenav
+        $('.button-collapse').sideNav();
+
+        $('input.autocomplete').autocomplete({
+    data: {
+      "Apple": null,
+      "Microsoft": null,
+      "Google": 'https://placehold.it/250x250'
+    },
+    limit: 20, // The max amount of results that can be shown at once. Default: Infinity.
+    onAutocomplete: function(val) {
+      // Callback function when value is autcompleted.
+    },
+    minLength: 1, // The minimum length of the input for the autocomplete to start. Default: 1.
+  });
+  $('ul.tabs').tabs();
+
+        
+
+    });
+    </script>
+    
+  </body>
+</html>
+

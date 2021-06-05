@@ -4,7 +4,17 @@ body{
 }
 
 
+/*Signup Button*/
+#signupnav{
 
+  
+  margin-right:4rem ;
+  
+}
+#signupnav:hover{
+  
+  color: #ffc451;  
+}
 
 
 
